@@ -28,6 +28,27 @@ body {
 	padding: 0px;
 	margin: 0px;
 }
+a {
+	text-decoration: none;
+	color: #666666;
+}
+a:hover {
+	color: lightgray;
+}
+
+#nav > a {
+	display: inline-block;
+	margin: 0 0 0 .5rem;
+	height: 2rem;
+	line-height: 0;
+	padding-top: 5px;
+}
+
+/* NAV */
+
+#nav {
+	height: 3.5rem;
+}
 
 
 /* HOME */
@@ -117,11 +138,11 @@ body {
   /* WORK */
 
   #work {
-	min-height: calc(100vh - 3.5rem);
+	min-height: calc(100vh - 6.5rem);
 	/* display: flex; */
 	justify-content: center;
 	align-items: center;
-	margin-top: .5rem;
+	/* margin-top: .5rem; */
   }
 
  /* @media only screen and (max-width: 600px) {
@@ -265,7 +286,37 @@ body {
 	  width: 100%;
 	}
   }
-  
+
+
+  /* BIO */
+  #bio {
+	min-height: calc(100vh - 7rem);
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	margin-top: .5rem;
+  }
+
+  /* SHOWS */
+
+  #shows {
+	min-height: calc(100vh - 7rem);
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	margin-top: .5rem;
+  }
+
+
+/* CONTACT */
+
+#contact {
+	min-height: calc(100vh - 7rem);
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	margin-top: .5rem;
+}
 
 
 
