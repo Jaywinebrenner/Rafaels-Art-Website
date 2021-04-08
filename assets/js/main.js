@@ -32,6 +32,40 @@ $( ".bioLinkWrapper" ).hover(
   );
 
 
+  // Animate text upon hovering over logo in NAV BAR
+$( ".bioLinkImagesWrapper" ).hover(
+    function() {
+      $( ".bioLogoImagesText" ).addClass( "showText" );
+    }, function() {
+      $( ".bioLogoImagesText" ).removeClass( "showText" );
+    }
+  );
+
+  $( ".workLinkImagesWrapper" ).hover(
+    function() {
+      $( ".workLogoImagesText" ).addClass( "showText" );
+    }, function() {
+      $( ".workLogoImagesText" ).removeClass( "showText" );
+    }
+  );
+
+  $( ".showsLinkImagesWrapper" ).hover(
+    function() {
+      $( ".showsLogoImagesText" ).addClass( "showText" );
+    }, function() {
+      $( ".showsLogoImagesText" ).removeClass( "showText" );
+    }
+  );
+
+  $( ".contactLinkImagesWrapper" ).hover(
+    function() {
+      $( ".contactLogoImagesText" ).addClass( "showText" );
+    }, function() {
+      $( ".contactLogoImagesText" ).removeClass( "showText" );
+    }
+  );
+
+
 
 
 
@@ -52,6 +86,26 @@ $('.showsLinkWrapper').click(function () {
 $('.contactLinkWrapper').click(function () {
     window.location = 'contact.html';
 });
+
+// Links for NAV BAR Logos
+
+$('.bioLinkImagesWrapper').click(function () {
+    window.location = 'bio.html';
+});
+
+$('.workLinkImagesWrapper').click(function () {
+    window.location = 'work.html';
+});
+
+$('.showsLinkImagesWrapper').click(function () {
+    window.location = 'shows.html';
+});
+
+$('.contactLinkImagesWrapper').click(function () {
+    window.location = 'contact.html';
+});
+
+
 
 
 
