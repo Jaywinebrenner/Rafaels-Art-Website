@@ -67,8 +67,33 @@ color: red;
 	padding-bottom: 5rem;
 }
 
+@media only screen and (max-width: 600px) {
+	#navImages {
+		display: none;
+	}
+  }
+
+.hamburger {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.hamburger {
+		display: block!important;
+	}
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+	#navImages {
+		display: none;
+	}
+  }
+
 .logoNav {
-	width: 5vw;
+	width: 50px;
 	transition: 0.3s;
 	cursor: pointer;
   }
@@ -84,16 +109,32 @@ color: red;
 	  opacity: 0.2;
   }
 
-  .bioLogoImagesText, .showsLogoImagesText, .contactLogoImagesText, .workLogoImagesText {
-	left: 0;
-	position:absolute;
-	text-align:center;
-	top: 30px;
-	width: 100%;
-	display: none;
-	font-size: 1rem;
-	color: #666666;
+  .bioLogoImagesText, .showsLogoImagesText, .contactLogoImagesText, .workLogoImagesText, .homeLogoImagesText {
+	  display: none;
+	  position:absolute;
+	  top: 10px;
 }
+.showsLogoImagesText {
+	right: -8px;
+}
+
+.bioLogoImagesText {
+	left: 13px;
+}
+
+.homeLogoImagesText {
+	left: 97px;
+}
+
+.workLogoImagesText {
+	top: 1px;
+}
+
+.showsLinkImagesWrapper, .worksLinkImagesWrapper, .bioLinkImagesWrapper, .workLinkImagesWrapper {
+	position: relative;
+	text-align: center;
+}
+
 
 @media only screen and (max-width: 600px) {
 	.bioLogoImagesText, .showsLogoImagesText, .contactLogoImagesText, .workLogoImagesText {
@@ -101,14 +142,10 @@ color: red;
 	}
   }
 
-  #navHomeButton {
-
-  }
 
   .titleText {
 	position: absolute;
-    top: 50px;
-
+    top: 2.5rem;
   }
 
   #navHomeButtonText {
@@ -116,8 +153,6 @@ color: red;
 	font-size: 5rem;
 	margin: 0;
   }
-
-
 
 
 

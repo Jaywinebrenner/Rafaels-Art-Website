@@ -65,6 +65,14 @@ $( ".bioLinkImagesWrapper" ).hover(
     }
   );
 
+  $( ".homeLinkImagesWrapper" ).hover(
+    function() {
+      $( ".homeLogoImagesText" ).addClass( "showText" );
+    }, function() {
+      $( ".homeLogoImagesText" ).removeClass( "showText" );
+    }
+  );
+
 
 
 
@@ -104,6 +112,13 @@ $('.showsLinkImagesWrapper').click(function () {
 $('.contactLinkImagesWrapper').click(function () {
     window.location = 'contact.html';
 });
+
+$('.homeLinkImagesWrapper').click(function () {
+    window.location = 'index.html';
+});
+
+
+// HAMBURGER
 
 
 
